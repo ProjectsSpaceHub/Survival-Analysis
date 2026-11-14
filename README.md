@@ -53,20 +53,11 @@ The data are accessed programmatically using `sksurv.datasets.load_flchain()`; n
 
 ## 🔄 Analytical Workflow
 
-```mermaid
-flowchart TD
-    A["FLCHAIN dataset<br/>7,874 observations"] --> B["01 · Data quality checks & EDA"]
-    B --> C["Stratified train / test split<br/>80% / 20%"]
-    C --> D["02 · Statistical survival analysis<br/>Kaplan–Meier · Log-rank · Cox"]
-    C --> E["03 · Leakage-safe preprocessing<br/>Imputation · Scaling · Encoding"]
-    E --> F["Cox survival model"]
-    E --> G["Random Survival Forest"]
-    F --> H["5-fold CV + held-out test"]
-    G --> H
-    D --> I["Survival patterns & hazard ratios"]
-    H --> J["C-index · Integrated Brier Score<br/>3-year calibration"]
-    J --> K["Feature importance · Survival curves<br/>Relative risk stratification"]
-```
+
+<div align="center">
+  <img src="assets/workflow.png" alt="SurvLens Analytical Workflow" width="600">
+</div>
+
 
 **Methodological safeguards**
 

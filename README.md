@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🔬 SurvLens
+# SurvLens
 
 ### Survival Analysis & Prediction Using the FLCHAIN Dataset
 

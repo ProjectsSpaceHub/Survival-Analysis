@@ -102,8 +102,6 @@ The repository contains **three numbered Jupyter notebooks**, designed to run in
 
 ## 👩🏻‍💻 Project Team
 
-Developed as part of **CAI401 — Selected Topics 2** at **Princess Nourah bint Abdulrahman University**, College of Computer and Information Sciences.
-
 | Team Members |
 |:--|
 | Rahaf Saadeddin |

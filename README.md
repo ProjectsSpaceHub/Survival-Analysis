@@ -59,13 +59,9 @@ The data are accessed programmatically using `sksurv.datasets.load_flchain()`; n
 </div>
 
 
-**Methodological safeguards**
 
-- Event-stratified **80/20 train–test split**, with `random_state=42`.
-- **Five-fold stratified cross-validation**, performed on training data only.
-- Median imputation for numeric missing values, standardization, and categorical one-hot encoding.
-- Preprocessing fitted **inside each training fold** to avoid validation/test leakage.
-- Distinct descriptive and predictive Cox configurations, with results interpreted accordingly.
+**Methodological Note:** We used an 80/20 stratified train–test split and five-fold cross-validation, with preprocessing fitted exclusively on training data to prevent data leakage.
+
 
 ## 🧠 Methods & Capabilities
 

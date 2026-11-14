@@ -31,8 +31,8 @@ Unlike conventional classification, survival analysis considers **when** an even
 
 The project studies survival patterns, explores associations between demographic/clinical factors and mortality, and compares two approaches to time-to-event prediction:
 
-- **Cox Proportional Hazards Regression** — an interpretable, semi-parametric survival model.
-- **Random Survival Forest (RSF)** — a tree-based ensemble that can model nonlinear relationships and feature interactions.
+- **Cox Proportional Hazards Regression** - an interpretable, semi-parametric survival model.
+- **Random Survival Forest (RSF)** - a tree-based ensemble that can model nonlinear relationships and feature interactions.
 
 > **Research question:** Does the added flexibility of Random Survival Forest meaningfully improve survival prediction over an interpretable Cox model on FLCHAIN?
 

@@ -63,20 +63,6 @@ The data are accessed programmatically using `sksurv.datasets.load_flchain()`; n
 **Methodological Note:** We used an 80/20 stratified train–test split and five-fold cross-validation, with preprocessing fitted exclusively on training data to prevent data leakage.
 
 
-## 🧠 Methods & Capabilities
-
-| Component | What it provides |
-|:--|:--|
-| **Exploratory data analysis** | Clinical distributions, follow-up patterns, missingness, censoring |
-| **Kaplan–Meier estimation** | Overall and grouped survival curves |
-| **Log-rank tests** | Unadjusted survival comparisons across age, sex, and MGUS groups |
-| **Descriptive Cox regression** | Hazard ratios, confidence intervals, proportional-hazards diagnostics |
-| **Predictive Cox & RSF** | Risk scores and individual survival probability estimates |
-| **Model evaluation** | Harrell's C-index, time-dependent Brier Score, Integrated Brier Score |
-| **Interpretability** | Cox coefficients and RSF permutation feature importance |
-| **Risk analysis** | Illustrative 1-, 3-, and 5-year survival estimates; relative risk groups |
-| **Calibration** | Three-year predicted vs. observed survival comparisons |
-
 ## 🏆 Model Performance
 
 The predictive models were evaluated on the **same held-out test set (1,575 observations)**.
